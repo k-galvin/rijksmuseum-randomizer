@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Open+Sans:wght@500&display=swap');
+
+
+/* TODO: Fix Background image sizing */
+.pageContent {
+  /* TODO: Resolve grid and flex use */
+  display: grid;
+  place-items: center;
+  background-image: url("rijks-color.jpg");
+  background-size: cover;
+  height: 125vh;
+  text-align: center;
+  color:#40332D;
+  font-family: 'Averia Serif Libre', cursive;
+}
+
+body {
+  font-family: 'Averia Serif Libre', cursive;
+}
+
+h1 {
+  font-size: 3.5em;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  background-color: #e9f6fc;
+  border: 0.2em solid #40332D;
+  padding: 0.2em;
+  padding-right: 0.3em;
+}
+
+label {
+  font-weight: bold;
+  background-color: #e9f6fc;
+  font-size: 1.25em;
+}
+
+select {
+  color: #5C761D;
+  font-family: 'Averia Serif Libre', cursive;
+  border-color:#5C761D;
+  font-weight: bold;
+  background-color: white;
+}
+
+.typeSelector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  max-height: 50vh;
+  border: 1em solid #40332D;
+}
+
+button {
+  color: white;
+  background-color: #5C761D;
+  font-family: 'Averia Serif Libre', cursive;
+  font-weight: bold;
+  font-size: 2em;
+  border: 0.1em solid white;
+  border-radius: 1em;
+  padding: 0.3em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  box-shadow: 0.1em 0.1em 2.5em white;
+  transition: 0.3s;
+  max-width: 25%;
+}
+
+button:hover {
+  background-color: white;
+  color: #5C761D;
+  border-color: #5C761D;
+}
+
+p {
+  margin: 0;
+  color:#40332D;
+  font-weight: bold;
+}
+
+footer {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
