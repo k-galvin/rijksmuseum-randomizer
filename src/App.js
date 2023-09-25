@@ -8,10 +8,6 @@ const App = () => {
   const [randomImage, setRandomImage] = useState(null);
   const [selectedType, setSelectedType] = useState('all');
 
-  useEffect(() => {
-    fetchRandomImage();
-  }, []);
-
   const fetchRandomImage = async () => {
     try {
       let url = `https://www.rijksmuseum.nl/api/en/collection?key=OAiYs4oK&format=json`;
@@ -47,6 +43,10 @@ const App = () => {
   const handleTypeChange = (event) => {
     setSelectedType(event.target.value);
   };
+
+  useEffect(() => {
+    fetchRandomImage();
+  });
 
   return (
     <div className="pageContent">

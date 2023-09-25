@@ -8,6 +8,7 @@
   place-items: center;
   background-image: url("rijks-color.jpg");
   background-size: cover;
+  background-position: center;
   height: 125vh;
   text-align: center;
   color:#40332D;
@@ -94,5 +95,5 @@ footer {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
 }
