@@ -1,22 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Open+Sans:wght@500&display=swap');
 
-
-/* TODO: Fix Background image sizing */
 .pageContent {
   /* TODO: Resolve grid and flex use */
   display: grid;
   place-items: center;
+  min-height: 100vh;
+
+  /* Background image styling */
   background-image: url("rijks-color.jpg");
   background-size: cover;
   background-position: center;
-  height: 125vh;
-  text-align: center;
-  color:#40332D;
-  font-family: 'Averia Serif Libre', cursive;
 }
 
 body {
+  /* Global styling */
   font-family: 'Averia Serif Libre', cursive;
+  color:#40332D;
+  font-weight: bold;
+  
 }
 
 h1 {
@@ -26,13 +27,12 @@ h1 {
 
 h2 {
   background-color: #e9f6fc;
-  border: 0.2em solid #40332D;
+  border: 0.2em solid;
   padding: 0.2em;
   padding-right: 0.3em;
 }
 
 label {
-  font-weight: bold;
   background-color: #e9f6fc;
   font-size: 1.25em;
 }
@@ -41,7 +41,6 @@ select {
   color: #5C761D;
   font-family: 'Averia Serif Libre', cursive;
   border-color:#5C761D;
-  font-weight: bold;
   background-color: white;
 }
 
@@ -87,7 +86,6 @@ button:hover {
 p {
   margin: 0;
   color:#40332D;
-  font-weight: bold;
 }
 
 footer {
@@ -96,4 +94,10 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  max-height: 100%;
+  margin-top: 1em;
+}
+
+.fillerImage {
+  margin: 1em;
 }
