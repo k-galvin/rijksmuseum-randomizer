@@ -1,6 +1,10 @@
 import React from 'react';
 
-export default function TypeSelector ({ selectedType, handleTypeChange }) {
+export default function TypeSelector ({ selectedType, setSelectedType }) {
+  const handleTypeChange = (event) => {
+    setSelectedType(event.target.value);
+  };
+
   return (
     <div className="typeSelector">
       <label htmlFor="type">Select Artwork Type:</label>
