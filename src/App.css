@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Open+Sans:wght@500&display=swap');
 
 .pageContent {
-  /* TODO: Resolve grid and flex use */
+  /* Grid to organize the body and footer */
   display: grid;
   place-items: center;
   min-height: 100vh;
@@ -17,7 +17,6 @@ body {
   font-family: 'Averia Serif Libre', cursive;
   color:#40332D;
   font-weight: bold;
-  
 }
 
 h1 {
