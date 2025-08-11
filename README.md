@@ -2,4 +2,4 @@ This Rijksmuseum Randomizer web-app gives the user a random piece of artwork of 
 
 The API used in this web-app is the [Rijksmuseum RijksData API](https://data.rijksmuseum.nl/object-metadata/api/). It is a JSON based service that allows developers to use the Rijksmuseum's freely accessible content.
 
-This Web-App is deployed using Replit [here](https://rijksmuseum-randomizer.kategalvin.repl.co/).
+This Web-App was previously deployed using Replit [here](https://rijksmuseum-randomizer.kategalvin.repl.co/), but no longer is due to their pricing changes.
